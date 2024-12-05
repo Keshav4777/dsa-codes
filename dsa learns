@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Declare two variables to store the numbers
+    double num1, num2, sum;
+
+    // Take input from the user
+    cout << "Enter first number: ";
+    cin >> num1;
+    cout << "Enter second number: ";
+    cin >> num2;
+
+    // Calculate the sum
+    sum = num1 + num2;
+
+    // Display the result
+    cout << "The sum of " << num1 << " and " << num2 << " is " << sum << endl;
+
+    return 0;
+}
